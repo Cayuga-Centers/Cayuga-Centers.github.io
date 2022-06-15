@@ -46,6 +46,10 @@ a {
   };
 };
 
+input#myInput { 
+	width: 300px; 
+}
+
 .responsive-table {
   width: 50%;
   margin-bottom: 1.5em;
