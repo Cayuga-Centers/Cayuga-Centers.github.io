@@ -2,44 +2,74 @@
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'>
 <title>Cayuga Centers Acronyms</title>
-<link type='text/css' rel='stylesheet' href='stylesheets/secondary.css' />
-<script src='filter-script.js' type='text/javascript'></script>
+<link href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' rel='stylesheet'>   
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<link rel='stylesheet' href='http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css'></style>
+<script type='text/javascript' src='http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js'></script>
+<script type='text/javascript' src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
 </head>
 <body>
-<h2>Acronyms Used At Cayuga Centers</h2><input 
- type='text'
- id='myInput'
- onkeyup='myFunction()'
- placeholder='Search for acronyms or their definitions...'
- title='Type in an acronym or definition'>
-
-<div class='table-wrapper'>
-<table class='fl-table' id='myTable'>
+<h2 class='display-3'>Acronyms Used At Cayuga Centers</h2>
+<div class='table-responsive'><table class='display table' id='myTable' width='100%'>
 <thead><tr class='header'>
 <th>Acronym</th>
 <th>Definition</th>
-</tr></thead><tbody>
+</tr></thead>
+<tbody>
 <tr>
-<td>EHR</td>
-<td>Electronic Health Record</td>
-</tr>
-<tr>
-<td>OLP</td>
-<td>Other Licensed Practitioner</td>
+<td>2FA</td>
+<td>2-Factor Authentication</td>
 </tr>
 <tr>
 <td>CFTSS</td>
 <td>Children and Family Treatment and Support Services</td>
 </tr>
 <tr>
-<td>2FA</td>
-<td>2-Factor Authentication</td>
+<td>DIB</td>
+<td>Diversity Inclusion and Belonging</td>
+</tr>
+<tr>
+<td>EHR</td>
+<td>Electronic Health Record</td>
+</tr>
+<tr>
+<td>LAN</td>
+<td>Local Area Network</td>
+</tr>
+<tr>
+<td>OLP</td>
+<td>Other Licensed Practitioner</td>
+</tr>
+<tr>
+<td>QOL or QoL</td>
+<td>Quality of Life</td>
+</tr>
+<tr>
+<td>Tx</td>
+<td>Treatment</td>
+</tr>
+<tr>
+<td>VPN</td>
+<td>Virtual Private Network</td>
 </tr>
 <tr>
 <td>WIP</td>
 <td>Work In Progress</td>
 </tr>
+<tr>
+<td>YMMV</td>
+<td>Your mileage may vary</td>
+</tr>
+<tr>
+<td>YOY</td>
+<td>Year Over Year</td>
+</tr>
+<tr>
+<td>YTD</td>
+<td>Year To Date</td>
+</tr>
 </tbody>
 
-</table></div><div style='color: white;'>Data is current as of June 15, 2022.</div>
-</body></html>
+</table></div><div style='color: black;'>Data is current as of June 16, 2022.</div><script>$(document).ready(function(){$('#myTable').dataTable();});</script>
+</body>
+</html>
